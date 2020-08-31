@@ -1,0 +1,13 @@
+plot "still.txt" with lines, \
+     "oscilator.txt" with lines, \
+     "chaos.txt" with lines
+
+plot "average.txt" with lines
+
+
+1 B3/S23
+2 B2/S7
+3 B45678/S3
+4 B123456/S123456
+5 B3/S12345678
+6 B234567/S456
