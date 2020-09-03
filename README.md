@@ -1,6 +1,6 @@
 # Game Of Life
 
-### This is an implementation of the famous Game of Life cellular automaton in C++ using the [olcConsoleGameEngine](https://github.com/howlettjames/videos/blob/master/olcConsoleGameEngineSDL.h). Check usage and results of this work ![here](https://github.com/howlettjames/Game-Of-Life/blob/master/Docs/LIFE_REPORT.pdf "Usage and results").
+### This is an implementation of the famous Game of Life cellular automaton in C++ using the [olcConsoleGameEngine](https://github.com/howlettjames/videos/blob/master/olcConsoleGameEngineSDL.h). Check usage and results of this work [here](https://github.com/howlettjames/Game-Of-Life/blob/master/Docs/LIFE_REPORT.pdf).
 
 ## Summary
 This implementation provides several simulation options as:
@@ -48,6 +48,6 @@ g++ thing.cpp -DUNICODE -I/usr/include/SDL2 -lSDL2 -lpthread -std=c++11 -o game.
 ./game.out
 ```
 
-## Example of a simulation
+## Example of a simulation with rule B3/S23
 
 ![Running the simulation](https://github.com/howlettjames/Game-Of-Life/blob/master/Test/test.png "Running the simulation")
